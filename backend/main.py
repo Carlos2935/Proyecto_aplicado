@@ -27,7 +27,7 @@ data_store = {}
 
 def load_and_prepare_data():
     print("Cargando parquets desde GitHub...")
-    base_url = "https://raw.githubusercontent.com/Carlos2935/Proyecto_aplicado/master/"
+    base_url = "https://raw.githubusercontent.com/Carlos2935/Proyecto_aplicado/master/data/"
     
     # 1. Cargar datos
     eventos = pd.read_parquet(base_url + 'eventos.parquet')
